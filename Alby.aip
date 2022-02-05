@@ -99,7 +99,7 @@
   <COMPONENT cid="caphyon.advinst.msicomp.JsonPropertyComponent">
     <ROW JsonProperty="Root" Name="Root" Condition="1" Order="0" Flags="60"/>
     <ROW JsonProperty="Root_1" Name="Root" Condition="1" Order="0" Flags="60"/>
-    <ROW JsonProperty="_" Parent="allowed_origins" Name="0" Condition="1" Order="0" Flags="57" Value="chrome-extension://edjnookdmfnmhpbflhjnbjefglppbjii/"/>
+    <ROW JsonProperty="_" Parent="allowed_origins" Name="0" Condition="1" Order="0" Flags="57" Value="chrome-extension://iokeahhehimjnekafflcihljlcjccdbe/"/>
     <ROW JsonProperty="__1" Parent="allowed_extensions" Name="0" Condition="1" Order="0" Flags="57" Value="extension@getalby.com"/>
     <ROW JsonProperty="allowed_extensions" Parent="Root_1" Name="allowed_extensions" Condition="1" Order="4" Flags="61"/>
     <ROW JsonProperty="allowed_origins" Parent="Root" Name="allowed_origins" Condition="1" Order="4" Flags="61"/>
