@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
+      - name: Download latest companion
+        run: ruby downloader.rb
       - name: Build installer project
         uses: caphyon/advinst-github-action@v1.0
         with:
