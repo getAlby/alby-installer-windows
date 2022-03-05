@@ -25,7 +25,7 @@
     <ROW Property="MsiLogging" MultiBuildValue="DefaultBuild:vp"/>
     <ROW Property="ProductCode" Value="1033:{7C0803C6-C4AE-40B4-A30E-66E7E7FF4FFD} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
-    <ROW Property="ProductName" Value="Alby Companion App"/>
+    <ROW Property="ProductName" Value="Alby"/>
     <ROW Property="ProductVersion" Value="1.0.5" Type="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{8E4A3474-806C-4B24-898E-E6A917A034D0}"/>
@@ -44,7 +44,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="AI_CustomARPName" ComponentId="{C0016A4A-1AB3-4BD6-BF08-94E62E5D7795}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
-    <ROW Component="AI_ExePath" ComponentId="{992729AB-C9E3-41C7-989F-74D741618079}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="AI_ExePath" ComponentId="{B7B5192B-22D9-439D-9E71-B180F7D68C28}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
     <ROW Component="AI_INSTALLPERUSER" ComponentId="{49F5FB3A-F510-427B-B7D4-BB5E798C2096}" Directory_="APPDIR" Attributes="4" KeyPath="AI_INSTALLPERUSER" Options="1"/>
     <ROW Component="APPDIR" ComponentId="{17D91EDD-4A9D-48DB-AD64-4BB7E005ABD4}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="Chrome" ComponentId="{E22D4EB4-7265-4F8B-BA96-A6528A75EB5F}" Directory_="APPDIR" Attributes="4" KeyPath="Chrome"/>
@@ -82,7 +82,7 @@
     <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DigCertStoreComponent">
-    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="0" SignTool="0" UseSha256="1" Thumbprint="d89ae83f2b3f84d861c5f1ec9e704c425a291af1 Subject: SignEverything1&#10;Issuer: SignEverything1&#10;Valid from 08/12/2021 to 08/12/2022&#10;User\MY" Subject="CN=SignEverything1"/>
+    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="7" SignTool="0" UseSha256="1" Thumbprint="d668ad261dcee5c669a775c1733c6ddbed49d6d3 Subject: Moritz Kaminski&#10;Issuer: Sectigo Public Code Signing CA R36&#10;Valid from 03/03/2022 to 03/04/2023&#10;User\MY" Subject="CN=Moritz Kaminski, O=Moritz Kaminski, S=Nordrhein-Westfalen, C=DE"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
     <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
@@ -205,7 +205,7 @@
     <ROW Dialog_="InstallDlg" Control="FolderEdit" Type="PathEdit" X="17" Y="141" Width="290" Height="20" Attributes="7" Property="APPDIR" Text="Control.Text.InstallDlg#Edit_1" TextStyle="[InputCtrlFont]" Order="1200" TextLocId="Control.Text.InstallDlg#Edit_1" MsiKey="InstallDlg#FolderEdit"/>
     <ROW Dialog_="InstallDlg" Control="ProductLogo" Type="Bitmap" X="10" Y="0" Width="92" Height="100" Attributes="1" Text="[AppLogoIcon]" Order="1300" MsiKey="InstallDlg#ProductLogo"/>
     <ROW Dialog_="InstallDlg" Control="Text_1" Type="Text" X="17" Y="236" Width="104" Height="17" Attributes="589827" Text="Please, agree to the" Order="1400"/>
-    <ROW Dialog_="InstallDlg" Control="Text_2" Type="Text" X="17" Y="252" Width="260" Height="17" Attributes="589827" Text="before you can install the Alby Companion App" Order="1500"/>
+    <ROW Dialog_="InstallDlg" Control="Text_2" Type="Text" X="17" Y="252" Width="260" Height="17" Attributes="589827" Text="before you can install Alby" Order="1500"/>
     <ROW Dialog_="InstallTypeDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" MsiKey="InstallTypeDlg#Cancel" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
     <ROW Dialog_="InstallTypeDlg" Control="Bitmap" Type="Bitmap" X="5" Y="0" Width="345" Height="400" Attributes="1" Text="[Background]" Order="200" MsiKey="InstallTypeDlg#Bitmap"/>
     <ROW Dialog_="InstallTypeDlg" Control="SubTitle" Type="Text" X="17" Y="94" Width="304" Height="18" Attributes="196611" Text="[ProductName] installation type" TextStyle="[SubTitleStyle]" Order="500" TextLocId="Azure.Control.Text.InstallTypeDlg#Title" MsiKey="InstallTypeDlg#SubTitle"/>
