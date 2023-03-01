@@ -1,4 +1,5 @@
 # Alby companion installer for Windows
+**NOTE** A download link and instructions will be provided directly from the Alby extension when connecting to your node.
 
 ## Build
 
